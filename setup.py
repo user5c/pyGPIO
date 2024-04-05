@@ -75,7 +75,7 @@ def print_correct():
 	:return:
 	"""
 
-	var4 = input("Correct? [Y/n] ")
+	var4 = input("Correct? [Y/n] ") or "Y"
 	if var4 == 'Y' or var4 == 'y':
 		return
 	else:
